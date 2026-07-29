@@ -1,0 +1,50 @@
+from Bio.Blast import NCBIXML
+import pandas as pd
+import glob
+
+results = []
+
+# Read all BLAST XML files
+for xml_file in glob.glob("*.xml"):
+    with open(xml_file) as result_handle:
+        blast_record = NCBIXML.read(result_handle)
+
+    if blast_record.alignments:
+        best_hit = blast_record.alignments[0]
+        hsp = best_hit.hsps[0]
+
+        # Calculate Identity %
+        identity_percent = (hsp.identities / hsp.align_length) * 100
+
+        # Calculate Coverage %
+        coverage = (hsp.align_length / blast_record.query_letters) * 100
+
+        # Assign confidence
+        if identity_percent >= 95 and hsp.expect < 1e-20:
+            confidence = "Excellent"
+        elif identity_percent >= 80:
+            confidence = "Good"
+        else:
+            confidence = "Weak"
+
+        results.append({
+            "Query": blast_record.query,
+            "Hit_ID": best_hit.hit_id,
+            "Title": best_hit.hit_def,
+            "Protein_Length": best_hit.length,
+            "Alignment_Length": hsp.align_length,
+            "Identities": hsp.identities,
+            "Identity_%": round(identity_percent, 2),
+            "Coverage_%": round(coverage, 2),
+            "E_value": hsp.expect,
+            "Bit_score": hsp.bits,
+            "Confidence": confidence,
+            "AMR_Status" :"No"
+        })
+
+df = pd.DataFrame(results)
+
+df.to_csv("blast_summary.csv", index=False)
+
+print(df)
+print("\nResults saved as blast_summary.csv")

@@ -1,0 +1,23 @@
+import pandas as pd
+
+# Read the BLAST summary
+df = pd.read_csv("blast_summary.csv")
+
+print("\n===== COMPLETE RESULTS =====")
+print(df)
+
+print("\n===== EXCELLENT HITS =====")
+excellent = df[df["Confidence"] == "Excellent"]
+print(excellent)
+
+print("\n===== SORTED BY BIT SCORE =====")
+sorted_df = df.sort_values(by="Bit_score", ascending=False)
+print(sorted_df)
+
+print("\n===== BEST HIT =====")
+print(sorted_df.iloc[0])
+
+# Save sorted results
+sorted_df.to_csv("sorted_blast_results.csv", index=False)
+
+print("\nSorted results saved as sorted_blast_results.csv")

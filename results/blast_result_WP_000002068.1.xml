@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5011493</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>307</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5011493</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>307</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q8NYD0.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Staphylococcus aureus subsp. aureus MW2]</Hit_def>
+  <Hit_accession>Q8NYD0</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.92</Hsp_bit-score>
+      <Hsp_score>1587</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>MANLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKLL</Hsp_qseq>
+      <Hsp_hseq>MANLQKYIEYSREVQQALENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVVAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKLL</Hsp_hseq>
+      <Hsp_midline>MANLQKYIEYSREVQQA ENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEV+AMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|B8F668.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Glaesserella parasuis SH0165]</Hit_def>
+  <Hit_accession>B8F668</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>2.49575e-142</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>MNNYLILSDEVQRGMAQGLPIVALESTIISHGMPYPQNVAMAREVEQIIRDNGAVPATIAIIDGKIRIGLSDDELELFGSSKGIAKVSRRDLPQIIASKKLGATTVASTMICAHLAGIKFFVTGGLGGVHKGWETTLDISADLDELAQTSVTVICAGAKSILDLDATLEYLETKGVPVVGYKTKNLPAFFTRDSGLPLALSCEELTEIAEMIKVKWQLGLEGGVVVANPIPQEDELAPSYINGIIDTAVKEAEEKGIIGKDITPFLLGKIVEMTEGKSLEANIKLVKNNAKVGARLAVEFFK</Hsp_hseq>
+      <Hsp_midline>+  Y+  S EVQ+      PIVALESTIISHGMPYPQNV MA  VEQIIR+NGA+PATIAIIDGKI+IGL  ++LE+  +SK +AKVSRRDL ++IA K +GATTVA+TMICA +AGI+FFVTGG+GGVHKG E T+DISADL+EL++T+VTVICAGAKSILDL  T+EYLETKGVPV+GY+T  LPAFFTR+SG+ L  S E    +A++   K QL LEGG+VVANPIP E  L+ +YI  II+ AV EAE +GI GKD TPFLLGKIVE T GKSL ANIKLV+NNA +GA++AV   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|B1HV79.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Lysinibacillus sphaericus C3-41]</Hit_def>
+  <Hit_accession>B1HV79</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>1.02446e-138</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>MKEFIVLSEEVKAGQAKGLPIVALESTIISHGMPYPQNVQTAREVEQIIRDNGAVPATIALIDGKIKIGLSDEELEMFGNAQGVAKASRRDLGYLLATKKLGATTVAATMICAELAGIEIFVTGGIGGVHRGAETTMDVSADLEELAQTNVAVICAGAKSILDIGLTLEYLETKGVPVVGYGTDELPAFYTRQSGFDVNFQLDTPEEIAEMLSAKWQLGLKGGAVIANPIPEAEALEHGFITNIIEKALVEAEENGIQGKNVTPFLLGKVKELTEGKSLDANIALVKNNAVVGAKIAVAFNQL</Hsp_hseq>
+      <Hsp_midline>++++I  S EV+  +    PIVALESTIISHGMPYPQNV+ A  VEQIIR+NGA+PATIA+IDGKIKIGL  E+LE+   ++ VAK SRRDL  ++A K +GATTVA TMICA +AGI+ FVTGGIGGVH+GAE TMD+SADLEEL++TNV VICAGAKSILD+  T+EYLETKGVPV+GY T+ELPAF+TR+SG  +   ++TPE +A++   K QL L+GG V+ANPIP   AL   +I  II +A+VEAE  GI+GK+ TPFLLGK+ E T GKSL ANI LV+NNA +GAKIAVA N+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|C0ZIY1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Brevibacillus brevis NBRC 100599]</Hit_def>
+  <Hit_accession>C0ZIY1</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>7.505e-128</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>MKQYLTFTEEVRHALENNLPVVALETTIISHGMPYPQNIEMAKEVEQIIRDNGAVPATIGIMDGKIKIGLTDSELEEFATNKNVAKVSRRDFAYILASGKIGATTVAATMIAAEMAGIHMFATGGIGGVHREGEITWDVSADLTELAQTDVAVVCAGAKSILDIGRTLEYLETQGVPVVGYRTDEFPSFFARKSGFGVDMRIDTPEEVGKMMNTKWDLGLKGGMIIANPVPESDALNHEEIEAVIQKALAEAKENNIAGKQVTPFMLDKVKKLTEGKSLATNIALVKHNAEVAAKIAVAYQK</Hsp_hseq>
+      <Hsp_midline>+++Y+ ++ EV+ A ENN P+VALE+TIISHGMPYPQN+EMA  VEQIIR+NGA+PATI I+DGKIKIGL   +LE  AT+K+VAKVSRRD A ++A   +GATTVA TMI A MAGI  F TGGIGGVH+  E T D+SADL EL++T+V V+CAGAKSILD+ +T+EYLET+GVPV+GY+T+E P+FF R+SG  +   ++TPE +  +  TK  L L+GG+++ANP+P   AL+   IEA+I +A+ EA+   I GK  TPF+L K+ + T GKSLA NI LV++NA + AKIAVA  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|A6TL60.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Alkaliphilus metalliredigens QYMF]</Hit_def>
+  <Hit_accession>A6TL60</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>5.47699e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MANLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>MKNVEKYLEYAPEVKKAIAEGRPIVALESTIISHGMPYPQNVETAKKVEDMIREGGAVPATIAIVKGKIKVGLTEEELMFLGQSKDVVKASRRDLPLIIAKELNGATTVASTMIIAALAGIKVFVTGGIGGVHRGAQETLDISADLMELAQTNVAVVCAGVKSILDIGLTLEVLETHGVPIVGYQTEDFPAFYTRKSGYGVDYAVANVEELARALKAKWDLDLKGGVVVANPIPEAYAMDEALITQAIDEAVQEAAAKGIQGKETTPFLLTKIKEITEGKSLESNIELVFNNAKIGAELAVALHRL</Hsp_hseq>
+      <Hsp_midline>M N++KY+EY+ EV++A    +PIVALESTIISHGMPYPQNVE A  VE +IR  GA+PATIAI+ GKIK+GL  E+L  L  SKDV K SRRDL  +IA +  GATTVA+TMI AA+AGI+ FVTGGIGGVH+GA+ T+DISADL EL++TNV V+CAG KSILD+  T+E LET GVP++GYQT + PAF+TR+SG  +  +V   E LA     K  L+L+GG+VVANPIP  +A+ +A I   I+EAV EA  +GI+GK+ TPFLL KI E T GKSL +NI+LV NNA +GA++AVA+++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q8RCT3.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8RCT3</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>7.11979e-127</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>MNRFIDLSEEVKSALEERRPVVALESTIISHGMPYPQNIETARALEEIVRENGAVPATIAIIGGKIKIGLNEEELEFMGTSKEILKASKRDLPVVLAKGLNAATTVSATMICANLAGIKVFVTGGIGGVHRGAEETFDISADLQELANTNVAVVCAGAKAILDLPRTLEYLETFGVPVIGFRTEEFPAFYTRESGLKVDYRVEDEVEAAKVIKTKWDLGLKGGILIANPIPEEYALDRAYIEKAIEEAIFEADRRGIRGKALTPFLLEKIKDLTEGKSLKANIELVKNNARVGAKIAVQLNKL</Hsp_hseq>
+      <Hsp_midline>+ ++I+ S EV+ A E  +P+VALESTIISHGMPYPQN+E A  +E+I+R NGA+PATIAII GKIKIGL  E+LE + TSK++ K S+RDL  V+A     ATTV+ TMICA +AGI+ FVTGGIGGVH+GAE T DISADL+EL+ TNV V+CAGAK+ILDLP+T+EYLET GVPVIG++T E PAF+TRESG+K+   VE     A +  TK  L L+GGI++ANPIP E+AL +AYIE  I EA+ EA+ +GI+GK  TPFLL KI + T GKSL ANI+LV+NNA +GAKIAV +NKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|A9BJN0.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Petrotoga mobilis SJ95]</Hit_def>
+  <Hit_accession>A9BJN0</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>1.74777e-125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>NLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>NTTPYLEIKEEVYQALKENRPIVALESTIISHGMPYPQNVEVAKNVEETIRERGAVPATIAIIDGKMKVGLSKEELEFMATSKNILKASRMDLPVILAKGFNAATTVAATMIIAELAGIKVFVTGGIGGVHRNAQETFDISADLQELAKTNVAVISAGPKAILDLQLTKEYLETFGVPVIGYQTDELPCFFSRESGINVPYRVETPKEIASIMKTKWDLGLQGGIFIANPIPKEYSLDFEEIDKTIENAIEEAKKRKIKGKELTPFLLSKINELTKGESLKANIELVYNNAQLGAEIAKEFNIL</Hsp_hseq>
+      <Hsp_midline>N   Y+E   EV QA + N+PIVALESTIISHGMPYPQNVE+A  VE+ IR  GA+PATIAIIDGK+K+GL  E+LE +ATSK++ K SR DL  ++A     ATTVA TMI A +AGI+ FVTGGIGGVH+ A+ T DISADL+EL+KTNV VI AG K+ILDL  T EYLET GVPVIGYQT+ELP FF+RESG+ +   VETP+ +A I  TK  L L+GGI +ANPIP E++L    I+  I  A+ EA+ + IKGK+ TPFLL KI E T G+SL ANI+LV NNA LGA+IA   N L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|A7GCK7.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Clostridium botulinum F str. Langeland]</Hit_def>
+  <Hit_accession>A7GCK7</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.295</Hsp_bit-score>
+      <Hsp_score>913</Hsp_score>
+      <Hsp_evalue>1.46755e-122</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILAT-SKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>LEKYLEISKEVSEALKENKPVVALESTIISHGMPYPKNAETALNVEKIIRDKGAIPATIAILNGKLKVGLTKDEIEYLGKKGKEVVKTSRRDIPFILAKKLDGATTVASTMIVANLAGIKVFGTGGIGGVHRGAQESFDISADLQELANTNVAVVCAGAKSILDIGLTLEYLETQGVPVVGFGTEELPAFYTRKSGFKVDYRVDTAKELAEALKAKWDLGLKGGMVVGNPIPEEYQMDYDTITKAINDAVKEAEEKGIKGKESTPFLLAKVKDITKGKSLEANIQLVYNNVAVASDLAIELSKL</Hsp_hseq>
+      <Hsp_midline>L+KY+E S+EV +A + N+P+VALESTIISHGMPYP+N E A  VE+IIR+ GAIPATIAI++GK+K+GL  +++E L    K+V K SRRD+  ++A K  GATTVA+TMI A +AGI+ F TGGIGGVH+GA+ + DISADL+EL+ TNV V+CAGAKSILD+  T+EYLET+GVPV+G+ T ELPAF+TR+SG K+   V+T + LA+    K  L L+GG+VV NPIP E+ +    I   IN+AV EAE +GIKGK++TPFLL K+ + T GKSL ANI+LV NN A+ + +A+ ++KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q5L078.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>Q5L078</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.599</Hsp_bit-score>
+      <Hsp_score>906</Hsp_score>
+      <Hsp_evalue>1.39571e-121</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVE</Hsp_qseq>
+      <Hsp_hseq>MNDFLVFSEEVAQAKAEKKPIVALESTIISHGMPYPENVQTAKDVERIIRDRGAVPATIAIFNEKIKIGLTEGELEQLGTSHDVEKVSRRDLPYVVAMKKHGATTVAGTMICAEMAGIRVFATGGIGGVHRGAEQTMDISADLQELARTNVAVVCAGAKSILDLGLTLEYLETHGVPVIGYQTDVLPAFYSRTSPFRVDYRLDSAKEIAQFLETKWKLGLNGGVVIANPVPKEEELEESYITAIIEQALKEAEKQHITGKSVTPFLLDRVKTLTGGKSLQANIALVK</Hsp_hseq>
+      <Hsp_midline>+  ++ +S EV QA+   +PIVALESTIISHGMPYP+NV+ A  VE+IIR+ GA+PATIAI + KIKIGL   +LE L TS DV KVSRRDL  V+AMK  GATTVA TMICA MAGI+ F TGGIGGVH+GAE TMDISADL+EL++TNV V+CAGAKSILDL  T+EYLET GVPVIGYQT+ LPAF++R S  ++   +++ + +A    TK +L L GG+V+ANP+P E  L ++YI AII +A+ EAE Q I GK  TPFLL ++   T GKSL ANI LV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q7MZE1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase 2; Short=PsiMP glycosidase 2 [Photorhabdus laumondii subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MZE1</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>2.3085e-118</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>KYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKD-VAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIA</Hsp_qseq>
+      <Hsp_hseq>KYLDISPEVTEALENNRPVVALESTIIAHGMPYPQNVKTALQVEQKIRENGAVPATIAVINGMMKAGLSHEEIAFLARKGDEITKVSRRDLPFVIAAGKNGATTVASTMIIAAMAGIRIFATGGIGGVHRGAEQTFDISADLQELAKTSVAVVCAGAKSILDLGLTTEYLETHGVPLIGYQTHALPAFFCRTSPFSVNIRLDSPEQIAQAMAVKWDTGLQGGLVVANPIPEPYAMPEAEISAAIEQAVRESIEQRVNGKACTPFLLARVSELTGGNSLSSNIQLVLNNAELAAKIA</Hsp_hseq>
+      <Hsp_midline>KY++ S EV +A ENN+P+VALESTII+HGMPYPQNV+ A  VEQ IR NGA+PATIA+I+G +K GL  E++  LA   D + KVSRRDL  VIA    GATTVA+TMI AAMAGI+ F TGGIGGVH+GAE T DISADL+EL+KT+V V+CAGAKSILDL  T EYLET GVP+IGYQT+ LPAFF R S   +   +++PE++A     K    L+GG+VVANPIP  +A+ +A I A I +AV E+  Q + GK  TPFLL ++ E T G SL++NI+LV NNA L AKIA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q2SM69.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SM69</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.51</Hsp_bit-score>
+      <Hsp_score>885</Hsp_score>
+      <Hsp_evalue>2.33148e-118</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSK-DVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENN</Hsp_qseq>
+      <Hsp_hseq>MNAYLDISPEVQTALAAGEPVVALESTIISHGMPWPQNAETALQVEQIVRDNGAVPATIAIIKGRLKVGLSKEEIEYLGKAGLNVTKASRRDIPFIIARGGDGATTVASTMILAAMAGVKVFATGGIGGVHRGAQETFDISADLQELAHTNVAVICAGAKSILDLGLTREYLETHGVPLVGYQTSTLPAFYTRDSDFDVDYQLDTPEQIAQALQAKWEMGLQGGVVIANPIPEAYAMDRGKIDAAISAALAEMDDKGVSGKDSTPFLLAKVAEITGGDSLKANIQLVFNN</Hsp_hseq>
+      <Hsp_midline>+  Y++ S EVQ A    +P+VALESTIISHGMP+PQN E A  VEQI+R+NGA+PATIAII G++K+GL  E++E L  +  +V K SRRD+  +IA    GATTVA+TMI AAMAG++ F TGGIGGVH+GA+ T DISADL+EL+ TNV VICAGAKSILDL  T EYLET GVP++GYQT+ LPAF+TR+S   +   ++TPE++A     K ++ L+GG+V+ANPIP  +A+ +  I+A I+ A+ E +++G+ GKD+TPFLL K+ E T G SL ANI+LV NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|C0QZV6.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Brachyspira hyodysenteriae WA1]</Hit_def>
+  <Hit_accession>C0QZV6</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>6.1372e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MANLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>MNNLEEFLDISEEVKEALHEKKAVVALESTIISHGMPYPENVESALNSEKNIRENNAVPATIAIIKGRIKVGLNKEELEYMGSNKNIAKSSRRDLPVMLALKKDGATTVTTTMIGASLAGIKVFATGGIGGVHRYAQETFDISADLQELSKTNVAVVCAGAKSILDIGLTIEYLETFGIPVLGYKTENFPAFYTRESGYKVDYKIDTTKDIANILDTKWKLGLNGGVLVCNPIPEEYEMDKDYINKIIDETVKEARDKNISGKDVTPYILAKLHSVTENKSLKANKELVYNNCRVAANIAYDYSNL</Hsp_hseq>
+      <Hsp_midline>M NL+++++ S EV++A    + +VALESTIISHGMPYP+NVE A   E+ IR N A+PATIAII G+IK+GL  E+LE + ++K++AK SRRDL  ++A+K  GATTV TTMI A++AGI+ F TGGIGGVH+ A+ T DISADL+ELSKTNV V+CAGAKSILD+  T+EYLET G+PV+GY+T   PAF+TRESG K+   ++T + +A+I  TK +L L GG++V NPIP E+ + K YI  II+E V EA ++ I GKD TP++L K+   T  KSL AN +LV NN  + A IA   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P33025.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P33025</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>1.92517e-115</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>KYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILAT-SKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>ELLQISPEVQDALKNKKPVVALESTIISHGMPFPQNAQTAIEVEETIRKQGAVPATIAIIGGVMKVGLSKEEIELLGREGHNVTKVSRRDLPFVVAAGKNGATTVASTMIIAALAGIKVFATGGIGGVHRGAEHTFDISADLQELANTNVTVVCAGAKSILDLGLTTEYLETFGVPLIGYQTKALPAFFCRTSPFDVSIRLDSASEIARAMVVKWQSGLNGGLVVANPIPEQFAMPEHTINAAIDQAVAEAEAQGVIGKESTPFLLARVAELTGGDSLKSNIQLVFNNAILASEIAKEYQRL</Hsp_hseq>
+      <Hsp_midline>+ ++ S EVQ A +N +P+VALESTIISHGMP+PQN + A  VE+ IR  GA+PATIAII G +K+GL  E++E+L     +V KVSRRDL  V+A    GATTVA+TMI AA+AGI+ F TGGIGGVH+GAEHT DISADL+EL+ TNVTV+CAGAKSILDL  T EYLET GVP+IGYQT  LPAFF R S   ++  +++   +A   + K Q  L GG+VVANPIP + A+ +  I A I++AV EAE QG+ GK++TPFLL ++ E T G SL +NI+LV NNA L ++IA    +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|Q01RY8.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+  <Hit_accession>Q01RY8</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>1.37268e-111</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>YIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIA</Hsp_qseq>
+      <Hsp_hseq>HLKIDPEVRRALQGKRPVVALESTIITHGMPYPENLATARSLESQVRAGGAVPATIAVIGGVICVGLSDKELEWLAGAKNVLKLSRNDLPYAIATQKIGATTVAATMIAANLAGIRIFATGGIGGVHRGAETTFDISADLEEFARTSVAVVCAGAKAILDLPKTLEYLETRGVPVIAYGTDEFPAFWSRQSGLKAPLRLDTPAEIARFLEVKWSLNLTGGAVICNPVPAEDEIPFHEMRTFIDSAVDEAERYGIKGKAVTPYILARIVELTGGRSLRTNMALAQNNARLAAELA</Hsp_hseq>
+      <Hsp_midline>+++   EV++A +  +P+VALESTII+HGMPYP+N+  A ++E  +R  GA+PATIA+I G I +GL  ++LE LA +K+V K+SR DL   IA + +GATTVA TMI A +AGI+ F TGGIGGVH+GAE T DISADLEE ++T+V V+CAGAK+ILDLPKT+EYLET+GVPVI Y T+E PAF++R+SG+K    ++TP  +A     K  LNL GG V+ NP+P E  +    +   I+ AV EAE  GIKGK  TP++L +IVE T G+SL  N+ L +NNA L A++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q5ZU79.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1]</Hit_def>
+  <Hit_accession>Q5ZU79</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>7.94139e-110</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKLL</Hsp_qseq>
+      <Hsp_hseq>FHDLLEFNEEVLDAINDKNPIVALESTIISHGMPYPDNLTTAIEVENIIRRQGAIPATIAMHQGKIRVGLTQEVMEHLALQKEVIKASRRDISFVLSRKVTASTTVAATMFCAHMAKLPLFVTGGIGGVHQDVTMSFDISADLIELSNTPVTVVCSGAKSILDLPKTLEVLETFGVPVIGYATDEFPAFYSRSSGIPVPQRLNSAEEVANLMSIQQKLNMKNGIVVANPIPVSAELSDEEISPYIKQAHDEAKH--MSGKSLTPFLLKRIAELTAGKSLEANIELIKNNAFLGAEIAIAYQKKL</Hsp_hseq>
+      <Hsp_midline>    +E++ EV  A  +  PIVALESTIISHGMPYP N+  A  VE IIR  GAIPATIA+  GKI++GL  E +E LA  K+V K SRRD++ V++ K   +TTVA TM CA MA +  FVTGGIGGVH+    + DISADL ELS T VTV+C+GAKSILDLPKT+E LET GVPVIGY T+E PAF++R SG+ +   + + E +A++   +Q+LN++ GIVVANPIP    LS   I   I +A  EA++  + GK  TPFLL +I E T GKSL ANI+L++NNA LGA+IA+A  K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q28PY7.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Jannaschia sp. CCS1]</Hit_def>
+  <Hit_accession>Q28PY7</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>2.30155e-109</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVN</Hsp_qseq>
+      <Hsp_hseq>LTFSPEVAEARAAGAPLVALESTIITHGMPYPQNLDTARAVEAEVRAAGAVPATIAIMDGRMHIGLTGTELEVLAQADGVAKLSRADLAACLARGGVGATTVAATMICAALAGIHVFATGGIGGVHKGAEDTFDISADLRELAHTPVTVIAAGAKAILDLPKTLEVLETLGVPVIAHGQDAFPAFWSRDSGLPAPLRADSATEIARAHLMRSKLGLPGGQLVANPIPEDAEIPASTLAPLIVQAQSEADAKGVARKAVTPFLLNRLFELTDGATLASNIALVLNNARLGAAVARALT</Hsp_hseq>
+      <Hsp_midline>+ +S EV +AR    P+VALESTII+HGMPYPQN++ A  VE  +R  GA+PATIAI+DG++ IGL   +LE+LA +  VAK+SR DLA  +A   VGATTVA TMICAA+AGI  F TGGIGGVHKGAE T DISADL EL+ T VTVI AGAK+ILDLPKT+E LET GVPVI +  +  PAF++R+SG+      ++   +A  HL + +L L GG +VANPIP +  +  + +  +I +A  EA+ +G+  K  TPFLL ++ E T+G +LA+NI LV NNA LGA +A A+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q1MFZ6.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase 1; Short=PsiMP glycosidase 1 [Rhizobium johnstonii 3841]</Hit_def>
+  <Hit_accession>Q1MFZ6</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>3.84737e-109</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>IAYSKEVASAKQRGAPLVALESTIITHGMPYPGNIEMARSVEAIIREQGAVPATIAVIHGTLHIGLEAAELEQLAKATEVMKVSRADLAFAIAERRTGATTVAATMIAAARAGIRVFATGGIGGVHRGAEESFDISADLEELARTGVIVVCAGAKAILDIPKTLEVLETRGVPVVTYESEEFPAFWSRSSGIRSPLSLNSPAAIANFQTVREQLGIDGGMLVANPVPEADEIASEEMEIYIERALDSAERDEVTGKAVTPYLLSTIFDLTDGQSLKTNIALVENNARLAAEIAVALGE</Hsp_hseq>
+      <Hsp_midline>I YS+EV  A++   P+VALESTII+HGMPYP N+EMA +VE IIR  GA+PATIA+I G + IGLE+ +LE LA + +V KVSR DLA  IA +  GATTVA TMI AA AGI+ F TGGIGGVH+GAE + DISADLEEL++T V V+CAGAK+ILD+PKT+E LET+GVPV+ Y++ E PAF++R SG++   S+ +P  +A+    ++QL ++GG++VANP+P    ++   +E  I  A+  AE   + GK  TP+LL  I + T+G+SL  NI LVENNA L A+IAVA+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q1M4T3.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase 2; Short=PsiMP glycosidase 2 [Rhizobium johnstonii 3841]</Hit_def>
+  <Hit_accession>Q1M4T3</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>1.12566e-107</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>SREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>SREMAEAIAAGSPVVALESTIITHGMPYPANLETALGVETVIRENGAIPATIAVVKGELRVGLEHDELEELAQSKGIVKASGRDLAVAMIRGQSAGTTVSATMLMADLAGIDVFATGGVGGVHRGAEQTFDISADLTELGRTKTAVVCAGVKSILDIAKTLEYLETQRVPVIAYGTEDFPAFFTRRSGFKADHRLDTPEEIAKAMWLHHQLGTGTGLLIANPIPEASALAPDFIDGTIADAVRDADERGIDRKELTPFLLARINELTKGESLKANIELVKNNARLAARIAVAYAPL</Hsp_hseq>
+      <Hsp_midline>SRE+ +A     P+VALESTII+HGMPYP N+E A  VE +IR NGAIPATIA++ G++++GLE ++LE LA SK + K S RDLA  +       TTV+ TM+ A +AGI  F TGG+GGVH+GAE T DISADL EL +T   V+CAG KSILD+ KT+EYLET+ VPVI Y T + PAFFTR SG K    ++TPE +A       QL    G+++ANPIP   AL+  +I+  I +AV +A+ +GI  K+ TPFLL +I E T G+SL ANI+LV+NNA L A+IAVA   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|A1B316.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Paracoccus denitrificans PD1222]</Hit_def>
+  <Hit_accession>A1B316</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.40917e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATS--KDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENN</Hsp_qseq>
+      <Hsp_hseq>MPPLIALSPETSQALADRQPLVALESTIITHGMPYPQNLEVAQQVEAAVREEGAVPATIAVMGGRIRVGLDAEALEALASTPAEQVMKLSRADLAACLALGRTGATTVAATMICAHLAGIEVFATGGIGGVHRGAETSFDISADLQELAQSPVTVVAAGAKAILDLPKTLEVLETLGVPVIAFGQDQLPAFWSRESGLAAPLRMDDPAQIAASARLRRELGLSGGQLVVNPIPPEAEIPRAEMIPVVEQALSEAEAQGIAAKAVTPFLLQRIFELTQGRSLDANIALVLNN</Hsp_hseq>
+      <Hsp_midline>+   I  S E  QA  + QP+VALESTII+HGMPYPQN+E+A  VE  +R  GA+PATIA++ G+I++GL++E LE LA++  + V K+SR DLA  +A+   GATTVA TMICA +AGI+ F TGGIGGVH+GAE + DISADL+EL+++ VTV+ AGAK+ILDLPKT+E LET GVPVI +  ++LPAF++RESG+     ++ P ++A     +++L L GG +V NPIP E  + +A +  ++ +A+ EAE QGI  K  TPFLL +I E T G+SL ANI LV NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|A5IXG3.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Mycoplasmopsis agalactiae PG2]</Hit_def>
+  <Hit_accession>A5IXG3</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.612</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>5.03353e-105</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAV</Hsp_qseq>
+      <Hsp_hseq>IVFSKEVESALKHKRPVVALESTIITHGMPYPKNVEMALNVENIIRKQGAVPATIAIINGIIHVGLENDEINELAKLKDVIKTSKRDFGYVLANKKNGGTTVSGTVLVAQKVGIPVFATGGIGGVHRGAEITFDISRDLDELSTNNVLVVCAGAKLILDLGLTLEYLETKGVEVLGYNSDKLPAFYSSSSEFNVTYNVHSASEVAAIMKAKWKFT-NGGIILANPIPEQYGLEYEYILDNINKAIEQAKVEGISGKKTTPYLLSKVLELTEGKSLEANIQLVYNNAKVAAQVAV</Hsp_hseq>
+      <Hsp_midline>I +S+EV+ A ++ +P+VALESTII+HGMPYP+NVEMA  VE IIR  GA+PATIAII+G I +GLE++++  LA  KDV K S+RD   V+A K  G TTV+ T++ A   GI  F TGGIGGVH+GAE T DIS DL+ELS  NV V+CAGAK ILDL  T+EYLETKGV V+GY +++LPAF++  S   +T +V +   +A I   K +    GGI++ANPIP ++ L   YI   IN+A+ +A+ +GI GK  TP+LL K++E T GKSL ANI+LV NNA + A++AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|Q9RS16.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539]</Hit_def>
+  <Hit_accession>Q9RS16</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.01849e-104</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>NLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENN</Hsp_qseq>
+      <Hsp_hseq>RLHSYLDLQPEVAAALSQGRPVVALESTIISHGMPYPQNVEMARGVEQIVRDNGAVPATIAVLGGRLKVGLSADELELLATDKAVQKISTRDLPVTVALGGHGATTVASTMRIAALAGIRVFATGGTGGVHRGAGETMDISADLLELARTDVCVVSAGVKSILDIGLTLEVLETQGVPAITLGADEFPAFYSRRSGFSSPLTVQTPAEAARVLKVKWDLGLTGGVLLANPVPETAEIPAEEMETHITRALADMAALGLSGKDTTPYLLGRIVELTGGRSLETNIALVRHN</Hsp_hseq>
+      <Hsp_midline> L  Y++   EV  A    +P+VALESTIISHGMPYPQNVEMA  VEQI+R+NGA+PATIA++ G++K+GL +++LE+LAT K V K+S RDL   +A+   GATTVA+TM  AA+AGI+ F TGG GGVH+GA  TMDISADL EL++T+V V+ AG KSILD+  T+E LET+GVP I    +E PAF++R SG     +V+TP   A +   K  L L GG+++ANP+P    +    +E  I  A+ +    G+ GKD TP+LLG+IVE T G+SL  NI LV +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|A9GT78.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Sorangium cellulosum So ce56]</Hit_def>
+  <Hit_accession>A9GT78</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.2414e-104</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>NLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSK-DVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENN</Hsp_qseq>
+      <Hsp_hseq>SIKDHLSISSEVRKALAGGRPVVALESTIITHGMPYPQNLEMVRRVEAVVRRNGAVPATIAIMDGKLRVGVKGEDLERLARGGGKAAKASRRDVAALLVLGGMAGTTVATTMMAAAWAGIQVFATGGIGGVHRGAETTFDISADLEELSQTQVAVVCAGAKSILDIPKTLETLETHGVPVLGYKTEDFPAFWARQSGQKVDHRIESAEEAARVIALQFELGM-GGVLVANPIPESHAMDARAIEARIEEAIRCAEAEGVSRKDLTPFLLKRIFELTEGKSLIANIALVENN</Hsp_hseq>
+      <Hsp_midline>+++ ++  S EV++A    +P+VALESTII+HGMPYPQN+EM   VE ++R NGA+PATIAI+DGK+++G++ EDLE LA      AK SRRD+A ++ +  +  TTVATTM+ AA AGIQ F TGGIGGVH+GAE T DISADLEELS+T V V+CAGAKSILD+PKT+E LET GVPV+GY+T + PAF+ R+SG K+   +E+ E  A +   + +L + GG++VANPIP  HA+    IEA I EA+  AE +G+  KD TPFLL +I E T GKSL ANI LVENN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|Q84K35.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase; AltName: Full=Pseudouridine monophosphate glycosidase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q84K35</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.54902e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILAT-SKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKLL</Hsp_qseq>
+      <Hsp_hseq>LRSLVKISPQVSEALSNGRAVVALESTIISHGMPYPQNLQTAKEVESIVRENGAIPATIAILNGVPCIGLSEEELERLASLGKSVQKTAGRDIANVVATRGNGATTVSATLFFASMVGIQVFVTGGIGGVHRHANHSMDISSDLTALGRTPIAVISAGVKSILDIPKTLEYLETQEVYVAAYKSDEFPAFFTEKSGCKAPSRVNSPEDCARVIDANMKLNRQAGILFAIPIPKHHSAAGNLIESATQRALTEAREQNVTGNAETPFLLARVNELTGGTSLAANIALVKNNALIGSQIAVALSQLM</Hsp_hseq>
+      <Hsp_midline>L+  ++ S +V +A  N + +VALESTIISHGMPYPQN++ A  VE I+R NGAIPATIAI++G   IGL  E+LE LA+  K V K + RD+A V+A +  GATTV+ T+  A+M GIQ FVTGGIGGVH+ A H+MDIS+DL  L +T + VI AG KSILD+PKT+EYLET+ V V  Y+++E PAFFT +SG K  S V +PE  A +     +LN + GI+ A PIP  H+ +   IE+    A+ EA  Q + G   TPFLL ++ E T G SLAANI LV+NNA +G++IAVA+++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|A1SQN1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Nocardioides sp. JS614]</Hit_def>
+  <Hit_accession>A1SQN1</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>2.30051e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>MANLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIA</Hsp_qseq>
+      <Hsp_hseq>MTAPHPLLTLTDEVADALRDGAPVVALESTIISHGMPYPQNVAMATEVEGIIRAAGAVPATIAVLEGRPRIGLTADDLELLASDEDVAKVSVRDLPFVVARRSHGATTVAATMRLAALAGIRVFVTGGLGGVHRGAQQSFDESADLTELGSTDVAVISAGVKSILDIGLTLERLETLGVPVLAYGSDEFPSFYSRSSGHAAPMRVDSAAEVAAVMAAKWDLGIAGGVVVANPIPEADEIPADEIGGIIEQALADMAARGIHGNEATPYLLGRIVEITGGASLTANIALVRANARLGASIA</Hsp_hseq>
+      <Hsp_midline>M      +  + EV  A  +  P+VALESTIISHGMPYPQNV MAT VE IIR  GA+PATIA+++G+ +IGL ++DLE+LA+ +DVAKVS RDL  V+A +  GATTVA TM  AA+AGI+ FVTGG+GGVH+GA+ + D SADL EL  T+V VI AG KSILD+  T+E LET GVPV+ Y ++E P+F++R SG      V++   +A +   K  L + GG+VVANPIP    +    I  II +A+ +   +GI G +ATP+LLG+IVE T G SL ANI LV  NA LGA IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|B6IRJ4.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Rhodospirillum centenum SW]</Hit_def>
+  <Hit_accession>B6IRJ4</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>4.90756e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>MHDFLSIHPEVAAALKAGRPVVALESTLISHGLPAPANLETAQAIEAAVRANGAVPATIAVLDGRIRVGLDAEDMQRLA-APGTAKVSRRDLPLVLAKGADGATTVAATMIAADLAGIAVFATGGIGGVHRGVETTGDISADLEELATTSVAVVCAGAKAILDLPRTLEYLETRGVPVVGFGTDAFPAFYHRDSGLPVDGRCDTPEDAARVLNAKWRLGLAGGIVVAVPIPDEAALDAAQAEAAVQQAVAEAATGGVRGKALTPFLLHRLETLTGGASLTANRALLLNNAAVGARIAVAYARL</Hsp_hseq>
+      <Hsp_midline>+  ++    EV  A +  +P+VALEST+ISHG+P P N+E A  +E  +R NGA+PATIA++DG+I++GL++ED++ LA +   AKVSRRDL  V+A    GATTVA TMI A +AGI  F TGGIGGVH+G E T DISADLEEL+ T+V V+CAGAK+ILDLP+T+EYLET+GVPV+G+ T+  PAF+ R+SG+ +    +TPE  A +   K +L L GGIVVA PIP E AL  A  EA + +AV EA   G++GK  TPFLL ++   T G SL AN  L+ NNAA+GA+IAVA  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|A8LQI0.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Dinoroseobacter shibae DFL 12 = DSM 16493]</Hit_def>
+  <Hit_accession>A8LQI0</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>4.41273e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>MANLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>MTHLPSFVDVHADVRNALETNAPVVALESTIITHGMPFPDNVEMAKAVEEEIRARGAIPATIAVLDGVLKIGLGADELEALAKVKDALKISRADIGYAISQGKSAGTTVAATMIVAQMAGIRVFATGGIGGVHKGVETSFDISADLTELGRTDVIVVAAGAKAILDVPKTLEVLETQGVSVVGYRTDTLPAFWTSGSDLDIPLRLDSAAEISEFQKVRDALRLGGGMLVANPIPAGDEIPAEIINGYIATAQAEMAAQSISGKAVTPFLLQRIFELSEGRSLRSNIALVKNNARLAADIAVALHS</Hsp_hseq>
+      <Hsp_midline>M +L  +++   +V+ A E N P+VALESTII+HGMP+P NVEMA  VE+ IR  GAIPATIA++DG +KIGL +++LE LA  KD  K+SR D+   I+      TTVA TMI A MAGI+ F TGGIGGVHKG E + DISADL EL +T+V V+ AGAK+ILD+PKT+E LET+GV V+GY+T+ LPAF+T  S + +   +++   +++    +  L L GG++VANPIP    +    I   I  A  E   Q I GK  TPFLL +I E + G+SL +NI LV+NNA L A IAVA++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|Q98NQ8.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Mesorhizobium japonicum MAFF 303099]</Hit_def>
+  <Hit_accession>Q98NQ8</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>4.5882e-101</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>QKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAV</Hsp_qseq>
+      <Hsp_hseq>RPFIDIHAPVAQALAAGRPVVALESTIITHGMPYPDNGAMAANVEKIISDGGAVPATIAVIGGRIKIGLSDGERESLAMTGDAMKLSRADLGFAVAQGRTGGTTVAATMIAAEMVGIKVFATGGIGGVHKGAEKSFDISADLDELARTPVIVVSAGAKAILDIEKTLEVLETRGVPVVGHGCETMPAFWSRQSPFRAPLTLYKPEEIAHFFRTRVALGLGGGVLVANPVPENHEIPAEEMAGYIEAAQKAAEALNVTGKAVTPFLLGKILELTGGRSLKTNIALVENNARLAAEIAKAL</Hsp_hseq>
+      <Hsp_midline>+ +I+    V QA    +P+VALESTII+HGMPYP N  MA  VE+II + GA+PATIA+I G+IKIGL   + E LA + D  K+SR DL   +A    G TTVA TMI A M GI+ F TGGIGGVHKGAE + DISADL+EL++T V V+ AGAK+ILD+ KT+E LET+GVPV+G+    +PAF++R+S  +   ++  PE +A    T+  L L GG++VANP+P  H +    +   I  A   AE   + GK  TPFLLGKI+E T G+SL  NI LVENNA L A+IA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|A9NGD7.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Acholeplasma laidlawii PG-8A]</Hit_def>
+  <Hit_accession>A9NGD7</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>2.40366e-100</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>MNQFIDIHPKVLDALRSGKPVVALESTIIAHGMPYPKNVETALNVEKIVEQNGAIPATIAIIDGRIKVGLNPNELTSLGKLSNVLKVSKRDIPYCVIKKYSGATTVSATILIADMVGIKVFATGGIGGVHKDAAATFDISRDLEEISEKQVAVVSAGAKAILDLDLTLEYLETKGVEVIGYKTSEFPAFFSNASGLNTTFQLDEASQIAQLMYTKWNMGLSGGIVVANPIPQNYAIDKDSLDKAISSAILSAKDNKITGKELTPYLLKMLHSNKDITSLESNIGLIYNNAKIAALIAVEFSKL</Hsp_hseq>
+      <Hsp_midline>+ ++I+   +V  A  + +P+VALESTII+HGMPYP+NVE A  VE+I+  NGAIPATIAIIDG+IK+GL   +L  L    +V KVS+RD+   +  K  GATTV+ T++ A M GI+ F TGGIGGVHK A  T DIS DLEE+S+  V V+ AGAK+ILDL  T+EYLETKGV VIGY+T+E PAFF+  SG+  T  ++   ++A +  TK  + L GGIVVANPIP  +A+ K  ++  I+ A++ A++  I GK+ TP+LL  +    +  SL +NI L+ NNA + A IAV  +KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|Q67N11.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Symbiobacterium thermophilum IAM 14863]</Hit_def>
+  <Hit_accession>Q67N11</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>3.87557e-99</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAE----HTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVN</Hsp_qseq>
+      <Hsp_hseq>MKYLLSYTPEVREALDRNRPVVALESTIISHGMPYPENLRTAREVEEIVRSQGAVPATIAVIGGRCKVGLTDEELELLATSPEAVKVSLRDLPVVLARKSLGATTVATTATIAAAAGIEVFVTGGIGGVHRKSPGDPAQMWDVSADLTVLGRTDITVVCAGAKSVLDIGATLEVLETLGVTVLGYRTDRFPGFYTRDTGFGVDARVDTPEEAAAVIHARQQTMLPGGVLVVNPVPEEHAMDPDEVERHIADALKAMAAEGVTGKAVTPYLLARLKEVTSGRALQTNIALVKHNALVGAQIAVALK</Hsp_hseq>
+      <Hsp_midline>++  + Y+ EV++A + N+P+VALESTIISHGMPYP+N+  A  VE+I+R+ GA+PATIA+I G+ K+GL  E+LE+LATS +  KVS RDL  V+A K +GATTVATT   AA AGI+ FVTGGIGGVH+ +        D+SADL  L +T++TV+CAGAKS+LD+  T+E LET GV V+GY+T+  P F+TR++G  + + V+TPE  A +   +QQ  L GG++V NP+P EHA+    +E  I +A+     +G+ GK  TP+LL ++ E T+G++L  NI LV++NA +GA+IAVA+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|B5Y6G9.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Coprothermobacter proteolyticus DSM 5265]</Hit_def>
+  <Hit_accession>B5Y6G9</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>9.77297e-99</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAV</Hsp_qseq>
+      <Hsp_hseq>LQIAPHVKEAIETLKPVVALESTIITHGMPYPANLHTALEVEQVIKEAGAVPATIGVINGIIKVGLSEEEITYLSQAKDLHKISLKDLSVAAAKKLSGGTTVSATMFASYKAGIQVFATGGIGGVHRDARESFDVSTDLEALGSIPITVVCAGAKAILDLPATLEYLETKGVLVVGYKTDEFPAFYYGRSGLKLEHSVTTPGELAQIIRERDALEINKAILVGNPPPEEMALEKGKVEQLIEAALQQAKVNNIKGKDVTPFLLDYLAKNSKGETLETNIALVKNNAYVGSLIAKAL</Hsp_hseq>
+      <Hsp_midline>++ +  V++A E  +P+VALESTII+HGMPYP N+  A  VEQ+I+  GA+PATI +I+G IK+GL  E++  L+ +KD+ K+S +DL+   A K  G TTV+ TM  +  AGIQ F TGGIGGVH+ A  + D+S DLE L    +TV+CAGAK+ILDLP T+EYLETKGV V+GY+T+E PAF+   SG+KL  SV TP  LA I   +  L +   I+V NP P E AL K  +E +I  A+ +A+   IKGKD TPFLL  + + + G++L  NI LV+NNA +G+ IA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|Q46PS3.2|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Cupriavidus pinatubonensis JMP134]</Hit_def>
+  <Hit_accession>Q46PS3</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>2.41796e-98</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>QKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNA</Hsp_qseq>
+      <Hsp_hseq>QSWLTLSAPVAAARAAGRPLVALESTIIAHGMPYPENVRTAHEVEALILELGAEPATIALIDGRIRVGLSDDELERLGRSGKAHKVSRRDLPAVLTSGELGATTVAGTMICAALAGIEVFVTGGIGGVHRGAQETFDISADLQELARTSVAVVCAGAKSILDIGLTLEYLETQGVPVLTCEQENFAAFYKRDSGFRADYRLDDPAEQARFIRTKWDLGLAGGVLLSTPVPEAAAMASEEIDALTQQALDEAQAQGITGKAVTPFLLARIKALTGGRSLATNIALVKHNA</Hsp_hseq>
+      <Hsp_midline>Q ++  S  V  AR   +P+VALESTII+HGMPYP+NV  A  VE +I   GA PATIA+IDG+I++GL  ++LE L  S    KVSRRDL  V+    +GATTVA TMICAA+AGI+ FVTGGIGGVH+GA+ T DISADL+EL++T+V V+CAGAKSILD+  T+EYLET+GVPV+  +     AF+ R+SG +    ++ P   A    TK  L L GG++++ P+P   A++   I+A+  +A+ EA+ QGI GK  TPFLL +I   T G+SLA NI LV++NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|A9B4S4.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Herpetosiphon aurantiacus DSM 785]</Hit_def>
+  <Hit_accession>A9B4S4</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>1.06287e-97</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>EVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLV</Hsp_qseq>
+      <Hsp_hseq>EVQAAFANGQPVVALESTVISHGLPYPHNREIALQLEATVRAGGAVPATIAVIQGQVHVGLTNEQIEHFATATDVLKLSRRDIGYAVAAGRDGATTVAATMAIAELAGIQVFATGGIGGVHRGARDTWDVSADLGELGKSSVLVVCAGAKSILDLPATLEVLETYGVPVVGYTTEELPAFYSAHSGLQLGRRVDDPTQAAAAWAAHRLYGGGSGMVLAVPPPVEKALDPQFVEAAIGRAIAQAEAAGIRGAAVTPFLLSAMARETEGESIATNTALL</Hsp_hseq>
+      <Hsp_midline>EVQ A  N QP+VALEST+ISHG+PYP N E+A  +E  +R  GA+PATIA+I G++ +GL +E +E  AT+ DV K+SRRD+   +A    GATTVA TM  A +AGIQ F TGGIGGVH+GA  T D+SADL EL K++V V+CAGAKSILDLP T+E LET GVPV+GY T ELPAF++  SG++L   V+ P + A      +      G+V+A P P E AL   ++EA I  A+ +AE  GI+G   TPFLL  +  +T G+S+A N  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|B8II14.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Methylobacterium nodulans ORS 2060]</Hit_def>
+  <Hit_accession>B8II14</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>3.49984e-97</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENN</Hsp_qseq>
+      <Hsp_hseq>HPLLDFAPEVRSALDAGAPVVALESTIVTHGMPHPQNVETARAVAAVVRANGAVPAIVAVVAGRIRIGLPEEILDWLGTAKEVLKLSRADLPHAVAAGLHGSTTVAATMICAHRAGIRVFATGGIGGVHRGVEETLDISADLDELARTPVAVVCAGAKAILDLPRTLEYLETRGVPVVGYRTDRFPAFWSRDSGLPAPLRLDTPEAIAALMRTKEALDLGGGILVANPVPEADEIPAREIAALIATAVAQARAAGIAGKAVTPFLLSRLLDLTGGRSLSTNIALVKNN</Hsp_hseq>
+      <Hsp_midline>   ++++ EV+ A +   P+VALESTI++HGMP+PQNVE A  V  ++R NGA+PA +A++ G+I+IGL  E L+ L T+K+V K+SR DL   +A    G+TTVA TMICA  AGI+ F TGGIGGVH+G E T+DISADL+EL++T V V+CAGAK+ILDLP+T+EYLET+GVPV+GY+T+  PAF++R+SG+     ++TPE +A +  TK+ L+L GGI+VANP+P    +    I A+I  AV +A   GI GK  TPFLL ++++ T G+SL+ NI LV+NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|Q165S4.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Roseobacter denitrificans OCh 114]</Hit_def>
+  <Hit_accession>Q165S4</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>4.10563e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MANLQKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAV</Hsp_qseq>
+      <Hsp_hseq>MTNLP--LRHSAEVAAAKAAGRPIVALESTIITHGMPYPQNLEVARQVEDDLRAAGVTPATIAVMDGTLHIGLEAHQLEALAQAKGVAKLSRADIAACMATGGTGATTVSATMIAAHLAGISVFATGGIGGVHRGAESSFDVSADLLELAQTPVTVVAAGAKAILDVAKTLEVLETQGVPVITVGQDSFPAFWSAESVFKSPLRMDDPVGIAAAHQMRVDLGLPGGQLVANPIPHTDEIPATELAPIIATAQADAEKHGIKGKAVTPYLLQRIYELTQGRSLTANIALVRNNARLAGAIAQAL</Hsp_hseq>
+      <Hsp_midline>M NL   + +S EV  A+   +PIVALESTII+HGMPYPQN+E+A  VE  +R  G  PATIA++DG + IGLE+  LE LA +K VAK+SR D+A  +A    GATTV+ TMI A +AGI  F TGGIGGVH+GAE + D+SADL EL++T VTV+ AGAK+ILD+ KT+E LET+GVPVI    +  PAF++ ES  K    ++ P  +A  H  +  L L GG +VANPIP+   +    +  II  A  +AE  GIKGK  TP+LL +I E T G+SL ANI LV NNA L   IA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|Q9L393.2|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Dickeya dadantii 3937]</Hit_def>
+  <Hit_accession>Q9L393</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>1.08468e-91</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNL------EGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVA</Hsp_qseq>
+      <Hsp_hseq>LRFSDEVKEALHSGKPVVALESTVIAHGLPYPENVATARKIEAAVRAEGAIPATIGIENGRFLIGMSDADLERFGSTRGIPKASSRDIPVILAQGGMGATTVASSLVAADLAGIPFFASAGIGGVHRGAERSMDISADLIQFTRSRVAVVCAGAKSILDLGLTLEYLETQCVPIISYQSDDFPAFYCRSSG------FHSPHRLDDATVIARSIDMHWKLGNQSSVLITHPIHEEDAIGTDEVESIIREAAVQAEHEGIRGPGATPYLMRAVAKATEGKTVKANMSVLISTAALAGKLACA</Hsp_hseq>
+      <Hsp_midline>+ +S EV++A  + +P+VALEST+I+HG+PYP+NV  A  +E  +R  GAIPATI I +G+  IG+   DLE   +++ + K S RD+  ++A   +GATTVA++++ A +AGI FF + GIGGVH+GAE +MDISADL + +++ V V+CAGAKSILDL  T+EYLET+ VP+I YQ+++ PAF+ R SG        +P RL D  +  + +++      +  +++ +PI  E A+    +E+II EA V+AE++GI+G  ATP+L+  + + T GK++ AN+ ++ + AAL  K+A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|C5CDZ1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Kosmotoga olearia TBF 19.5.1]</Hit_def>
+  <Hit_accession>C5CDZ1</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.322</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>8.59946e-90</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>QPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>QPIVALESTVIAHGLPWPTNFETAVSMENKVKEKGAIPKTLGIINGEIKIGLTEKEIEHLAKAKNVMKIGTAEIAAAIALRRNAATTVSATMRLAKNAGIDVFATGGIGGVHRNV--PWDVSQDIMELSKTRMIVVCAGFKSILDVERTIEFLETFQVTVVGYQTDYMPLFHTKESEYKVNIRADSPEEIVAIFNEKEKLGIEGAILVANPIPEQSEIPREELEEYIKKAVAQAKENGISGKSLTPFLLSRLTELSGGKTLTANIALLKNNASLAGEIAVALSR</Hsp_hseq>
+      <Hsp_midline>QPIVALEST+I+HG+P+P N E A ++E  ++  GAIP T+ II+G+IKIGL  +++E LA +K+V K+   ++A  IA++   ATTV+ TM  A  AGI  F TGGIGGVH+      D+S D+ ELSKT + V+CAG KSILD+ +T+E+LET  V V+GYQT+ +P F T+ES  K+    ++PE +  I   K++L +EG I+VANPIP +  + +  +E  I +AV +A+  GI GK  TPFLL ++ E + GK+L ANI L++NNA+L  +IAVA+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|A5UT22.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Roseiflexus sp. RS-1]</Hit_def>
+  <Hit_accession>A5UT22</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>3.21576e-89</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILA---TSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAV</Hsp_qseq>
+      <Hsp_hseq>IAVSAEVQAALDAGQPVVALESTVISHGLPYPHNLELALAMEQEVRDQGAVPATVGIVAGVPTVGMDAAAIRRFAHPDPHHPPLKVSRRDIGYVVAAGGDGATTVAATMALAHLAGVQVFATGGIGGVHRGARETWDVSADLTELERTPVLVVCAGAKAILDLPATLEYLETGGVPVLGWRTAEFPAFYSVSSGLPVAYAQDA-SFVARAWKAHRALG-GAGMVLAVPPPVEDAIDRAVVEAAIERALNRAVKEGVHGPAVTPFLLAALARETEGESVRANVALLRQNARIAAQVATAI</Hsp_hseq>
+      <Hsp_midline>I  S EVQ A +  QP+VALEST+ISHG+PYP N+E+A  +EQ +R+ GA+PAT+ I+ G   +G+++  +   A         KVSRRD+  V+A    GATTVA TM  A +AG+Q F TGGIGGVH+GA  T D+SADL EL +T V V+CAGAK+ILDLP T+EYLET GVPV+G++T E PAF++  SG+ +  + +    +A      + L    G+V+A P P E A+ +A +EA I  A+  A  +G+ G   TPFLL  +  +T G+S+ AN+ L+  NA + A++A A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|Q1D739.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Myxococcus xanthus DK 1622]</Hit_def>
+  <Hit_accession>Q1D739</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>3.72073e-89</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKD-VAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>LRFSEEVRRALEAGQPLVALETSVVAQGLPYPDNLAAARACEEAIRRAGAVPAATAIIDGQLCVGLEEPEMRRLAEGKERLLKVASRDFAVAMATRATGGTTVSATCEMAAAAGIRVFSTGGIGGVHRGASEHFDISQDIAALARFPVAVVCAGAKSVLDLPKTMELLETAGVPVIGVGTDELPSFYSRGSGIPLEHRADDVDTAARIARARFESLKQGGVLYTVPPPEETSLPRNEVELHIAATLADADRQGIRGKAVTPFLLSEMAKRTGGKTLKANLALLTNNARFAGQLAVAYAR</Hsp_hseq>
+      <Hsp_midline>+ +S EV++A E  QP+VALE+++++ G+PYP N+  A   E+ IR  GA+PA  AIIDG++ +GLE  ++  LA  K+ + KV+ RD A  +A +  G TTV+ T   AA AGI+ F TGGIGGVH+GA    DIS D+  L++  V V+CAGAKS+LDLPKTME LET GVPVIG  T+ELP+F++R SG+ L    +  +  A I   + +   +GG++   P P E +L +  +E  I   + +A+ QGI+GK  TPFLL ++ ++T GK+L AN+ L+ NNA    ++AVA  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|C6CFY1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Dickeya chrysanthemi Ech1591]</Hit_def>
+  <Hit_accession>C6CFY1</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>5.4008e-89</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>QKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKLL</Hsp_qseq>
+      <Hsp_hseq>HELLRFSDEVKDALHTGKPVVALESTVIAHGLPYPDNVATAQKIEAVVRAEGAIPATIGIENGRFLIGMSDADIERFGATNGIPKASSRDIPVILAQGGKGATTVASSLVAADLAGIPFFASAGIGGVHRGAEKSMDISADLVQFTRSRVAVVCAGAKSILDLGLTLEYLETQCVPIISYQSDDFPAFYCRSSGFPSPHRLDDPAVVARSIEMHWKLGNRSSVLITHPIHENDAIDKDEVESIIREAALQAEHEGIRGPGATPYLMRAVARATQGRTVKANMSVLISTAALAGKLACAHTDYL</Hsp_hseq>
+      <Hsp_midline> + + +S EV+ A    +P+VALEST+I+HG+PYP NV  A  +E ++R  GAIPATI I +G+  IG+   D+E    +  + K S RD+  ++A    GATTVA++++ A +AGI FF + GIGGVH+GAE +MDISADL + +++ V V+CAGAKSILDL  T+EYLET+ VP+I YQ+++ PAF+ R SG      ++ P  +A       +L     +++ +PI    A+ K  +E+II EA ++AE++GI+G  ATP+L+  +   T G+++ AN+ ++ + AAL  K+A A    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|Q9USY1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-metabolizing bifunctional protein C1861.05; Includes: RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase; Includes: RecName: Full=Pseudouridine kinase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9USY1</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>3.21449e-88</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>SREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVA-KVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVI--GYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIA</Hsp_qseq>
+      <Hsp_hseq>SKEVTEALKNNVPVVALESTIITHGMPYPQNEELAIQVESKVRSMGAVPATIALLNGQCTIGLEQFQLSELAKSGETAYKVSRRDLSYVASQRLNGGTTVAATMILARAAGIDVFATGGIGGVHRGAENSMDISADLIELGRTRVAVVSAGVKSILDIGRTLEVLETQGVPVVTLGPPKSAFPAFFSRESKFQSPLSLETPQLIANMLFSNIQLGQECGTLVAIPTPHHCSIDYEKMEALIETCLQRSVQLGITGKNVTPWLLGELLRESKGKSLNTNIDLVLNNAEKASLIA</Hsp_hseq>
+      <Hsp_midline>S+EV +A +NN P+VALESTII+HGMPYPQN E+A  VE  +R+ GA+PATIA+++G+  IGLE   L  LA S + A KVSRRDL+ V + +  G TTVA TMI A  AGI  F TGGIGGVH+GAE++MDISADL EL +T V V+ AG KSILD+ +T+E LET+GVPV+  G   +  PAFF+RES  +   S+ETP+ +A++  +  QL  E G +VA P P+  ++    +EA+I   +  +   GI GK+ TP+LLG+++ ++ GKSL  NI LV NNA   + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|A4F929.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Saccharopolyspora erythraea NRRL 2338]</Hit_def>
+  <Hit_accession>A4F929</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.1102e-86</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>SREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAV</Hsp_qseq>
+      <Hsp_hseq>STEVRQALDAGRPVVALESTIITHGLPRPRNLAVARDAERQLRDAGVVPATIGVVAGTPTVGLTGEQIEELAADEAAVKISTRDLPVAVARGASGGTTVAATAFLARKAGIRVFATGGLGGVHHGAATTFDESADLVTLASTPLVLVSAGAKSILDLAATLERLETLNIPVVGYRTRRFPGFYVADSGHDLEHSVDTPQEVAALVEARDALELRSALLVANPIPPERQLDPELHRRVLAEAWEEAERQGISGHDSTPFLLDHIRRATGDRSLEVNIDVYQNNVALGASIARAM</Hsp_hseq>
+      <Hsp_midline>S EV+QA +  +P+VALESTII+HG+P P+N+ +A   E+ +R+ G +PATI ++ G   +GL  E +E LA  +   K+S RDL   +A    G TTVA T   A  AGI+ F TGG+GGVH GA  T D SADL  L+ T + ++ AGAKSILDL  T+E LET  +PV+GY+T   P F+  +SG  L  SV+TP+ +A +   +  L L   ++VANPIP E  L       ++ EA  EAE QGI G D+TPFLL  I   T  +SL  NI + +NN ALGA IA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|B9LGZ1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Chloroflexus aurantiacus Y-400-fl]</Hit_def>
+  <Hit_accession>B9LGZ1</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.09982e-85</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKD-VAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGV---KLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNKL</Hsp_qseq>
+      <Hsp_hseq>LRIAEEVTTALEEGRAVVALESTLISHGLPYPHNLAVAEGLEAEVRAAGAVPATIGLIEGVPVIGLNGNELERLAVGGDRVRKLSRRDIGAAIVDHADGATTVAATMALAAAAGIEVFATGGIGGVHRGATHSWDVSADLTELGRTPVLVVCAGAKAILDLPATLEYLETQGVPVVGYQTVEFPAFYTPHSGLTVAAVAADALAAARMWRIQRRYHTFAAPGGMLLCVPPPERHALEREAVEAAIGRALARAEAEGVRGPAVTPFLLAAMAEETSGESIETNIALLRNNTRVAAEVAVRISEL</Hsp_hseq>
+      <Hsp_midline>+  + EV  A E  + +VALEST+ISHG+PYP N+ +A  +E  +R  GA+PATI +I+G   IGL   +LE LA   D V K+SRRD+   I     GATTVA TM  AA AGI+ F TGGIGGVH+GA H+ D+SADL EL +T V V+CAGAK+ILDLP T+EYLET+GVPV+GYQT E PAF+T  SG+    + +      R+  I          GG+++  P P  HAL +  +EA I  A+  AE +G++G   TPFLL  + E+T+G+S+  NI L+ NN  + A++AV +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|Q7N4X5.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase 1; Short=PsiMP glycosidase 1 [Photorhabdus laumondii subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N4X5</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>7.59384e-85</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>IEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEG------GIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVA</Hsp_qseq>
+      <Hsp_hseq>FKFSLEVKEALESGKPVVALESNVITHGLDYPDNVTTAKNVEQAVRESGAIPATIGIDKGEFLIGMSDEQIEKFATASHVPKVTSRDIPVVLASGGMGATTVASSILAAEIAGIKFFCSAGIGGVHRGAETSMDISADLTQLTRSRVAVVCAGAKNILDIGLTLEFLETWNVPVISYQSDDFPAFYCRSSGFK------SPQRLDELAVIAKAIEINWMLPGGKGVLITTPTKPEDALDNQKIDIIIQEAVLEAKKKNIVGNSLTKYLMRMVDRETDGISAKANMAVLVNTAEVAGKLAVA</Hsp_hseq>
+      <Hsp_midline> ++S EV++A E+ +P+VALES +I+HG+ YP NV  A  VEQ +R +GAIPATI I  G+  IG+  E +E  AT+  V KV+ RD+  V+A   +GATTVA++++ A +AGI+FF + GIGGVH+GAE +MDISADL +L+++ V V+CAGAK+ILD+  T+E+LET  VPVI YQ+++ PAF+ R SG K      +P+RL ++ +  + + +        G+++  P   E AL    I+ II EAV+EA+ + I G   T +L+  +  +T+G S  AN+ ++ N A +  K+AVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|B7ID34.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Thermosipho africanus TCF52B]</Hit_def>
+  <Hit_accession>B7ID34</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>7.21308e-84</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>SREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>SEKVQKALEENKPIVALESTVIAHGLPYPENLKVAQEFEDIVYENGCVPATIGILKGKVIVGLSKEQL-IELVDDNPIKVGTREISYAIAMKKSAATTVSSTAKIASLAGIKVFATGGIGGVHRGE---WDVSQDIIELSKTNIIVVSAGCKSILDIKKTLEFLETFQVLTVGYKTEYFPIFYNRLSKEKIY-KVENADEIANIFNEKNKLKLESAILVANPIPEDYVLDNNEIEGYIKTIEKEIAEKDIHGKEVTPYMLKRLVELSNGKTLESNIVLLKNNVELACKIAQSLKK</Hsp_hseq>
+      <Hsp_midline>S +VQ+A E N+PIVALEST+I+HG+PYP+N+++A   E I+  NG +PATI I+ GK+ +GL  E L I     +  KV  R+++  IAMK   ATTV++T   A++AGI+ F TGGIGGVH+G     D+S D+ ELSKTN+ V+ AG KSILD+ KT+E+LET  V  +GY+T   P F+ R S  K+   VE  + +A+I   K +L LE  I+VANPIP ++ L    IE  I     E   + I GK+ TP++L ++VE +NGK+L +NI L++NN  L  KIA ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|A8GCG3.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GCG3</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>3.91879e-82</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>EVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNL------EGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAVNK</Hsp_qseq>
+      <Hsp_hseq>EVKAALESRHAVVALESNVITHGLNYPANVETALAVEAAVRRSGAVPATIGICDGEILVGMHREQIERFATTPGIAKVSSNNLPFVLAQKSMGATTVASSLMLAELAGIGFFASAGIGGVHRGGEDSMDISSDLIQFTRTNVTVVCAGAKNILDIGRTLEFLETQCVPVVTYQTDDFPAFYCRSSGYR------SPQRLDSLEAIAQAIDINRALPGSAAMVVAAPTKPEDAIDSRDVQAAIQAAIENAAAKGVTGSQVTKFIMKAVEQATHGRSAMANAAVLVNTAEIAGQLAMVYHR</Hsp_hseq>
+      <Hsp_midline>EV+ A E+   +VALES +I+HG+ YP NVE A  VE  +R +GA+PATI I DG+I +G+  E +E  AT+  +AKVS  +L  V+A K +GATTVA++++ A +AGI FF + GIGGVH+G E +MDIS+DL + ++TNVTV+CAGAK+ILD+ +T+E+LET+ VPV+ YQT++ PAF+ R SG +      +P+RL  +    Q +++         +VVA P   E A+    ++A I  A+  A  +G+ G   T F++  + + T+G+S  AN  ++ N A +  ++A+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|A7HMA1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Fervidobacterium nodosum Rt17-B1]</Hit_def>
+  <Hit_accession>A7HMA1</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>8.39963e-82</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>SREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDL-EILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIA</Hsp_qseq>
+      <Hsp_hseq>SEKVKKALEDGIPVIALESTVIAHGLPYPHNVETAKMLEEMALENGVVPATIGILKGEIIVGMSQEQINEMLA--DEPLKIGTREIPYAVGMKKSAATTVSATMRIAKIAGIDVFATGGIGGVHIG---DWDVSQDITEMAKSDVIVVSAGCKSILDVKKTIEFLETFQVTVVGYKTNKFPIFYEGLSDFNLEHRVDSPEDIAKIFRAKKSLGIEGALLVANPIPQEFVISEQEVDGYMKQALSECFEKGITGKAVTPYLLSRIAQLSNGKTLTSNIELLKNNVLLACQIA</Hsp_hseq>
+      <Hsp_midline>S +V++A E+  P++ALEST+I+HG+PYP NVE A  +E++   NG +PATI I+ G+I +G+  E + E+LA   +  K+  R++   + MK   ATTV+ TM  A +AGI  F TGGIGGVH G     D+S D+ E++K++V V+ AG KSILD+ KT+E+LET  V V+GY+TN+ P F+   S   L   V++PE +A I   K+ L +EG ++VANPIP E  +S+  ++  + +A+ E   +GI GK  TP+LL +I + +NGK+L +NI+L++NN  L  +IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|B1W0X1.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Streptomyces griseus subsp. griseus NBRC 13350]</Hit_def>
+  <Hit_accession>B1W0X1</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>1.67011e-79</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>SREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLE-GGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAAL</Hsp_qseq>
+      <Hsp_hseq>SAEVRAALSTGLPVVALESTIIAHGLPRPRNLSVARELEGLVRSAGAVPATVAVLDGRARIGLDGDQLERVAGDPAVRKLGHRDLAPALAAGADGATTVSATAFLAARAGIGVFATGGLGGVHREWAENQDESADLRLLARTGITVVCAGVKSILDVPATLQRLETLGVPVVGYGTGHFPGFYLSSSGEPVDWTVHSPEEVAEVIRAREALGGPVGALIVANPVAERDQLDPVLHDRVLAQALDACRERGISGQGVTPFLLDQLTRRTEGASLEANLAAVRGNVTL</Hsp_hseq>
+      <Hsp_midline>S EV+ A     P+VALESTII+HG+P P+N+ +A  +E ++R+ GA+PAT+A++DG+ +IGL+ + LE +A    V K+  RDLA  +A    GATTV+ T   AA AGI  F TGG+GGVH+      D SADL  L++T +TV+CAG KSILD+P T++ LET GVPV+GY T   P F+   SG  +  +V +PE +A++   ++ L    G ++VANP+     L     + ++ +A+     +GI G+  TPFLL ++  +T G SL AN+  V  N  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|Q0RBB8.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Frankia alni ACN14a]</Hit_def>
+  <Hit_accession>Q0RBB8</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>1.04392e-75</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>QKYIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVA</Hsp_qseq>
+      <Hsp_hseq>RSNIVVSATVRDALAAGAPVVALESTLIAHGLPRPRNRDVAVELEELARARGVTPATIAVIDGVPRVGLDEPDLRRIADDANVIKLSVRDLPVACATGWTGATTVASTALLAARVGIRLFATGGLGGVHRGAGDSFDESADLVTLAAMPITVVSAGVKSILDIGATLERLETLGITVVGYRTSTFPGFYLPHTTYDLDWRVGDAGQVAATMAAADLLGLTSAIVVANPLPTDQALDPALHDRVLADALAWATERGIRGKAVTPFLLETFHRETGGASLEVNINAVRNNVAVASDIALA</Hsp_hseq>
+      <Hsp_midline>+  I  S  V+ A     P+VALEST+I+HG+P P+N ++A  +E++ R  G  PATIA+IDG  ++GL+  DL  +A   +V K+S RDL    A    GATTVA+T + AA  GI+ F TGG+GGVH+GA  + D SADL  L+   +TV+ AG KSILD+  T+E LET G+ V+GY+T+  P F+   +   L   V    ++A        L L   IVVANP+P + AL  A  + ++ +A+  A  +GI+GK  TPFLL     +T G SL  NI  V NN A+ + IA+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|A4X4Y7.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Salinispora tropica CNB-440]</Hit_def>
+  <Hit_accession>A4X4Y7</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>4.45779e-73</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>YIEYSREVQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLE-GGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAAL</Hsp_qseq>
+      <Hsp_hseq>HLRHGVEVADALRVGRPVVALESTIVSHGLPRPDNLRVAREIEQTVRDAGAVPATIGMVAGQLVVGLDDAELTRLATVDDVAKLSVRDLAVAAATDADGATTVAATSAVAAAAGIRVFATGGLGGVHREAAQSFDESADLTTLARTPIAVVCAGVKSILDSGATLERLETLGVGVVGYRTRRFPGFYLTDGGFDLDWSVDSPEQVAAALAAQEQHGLHSGGLVVANPLPTDEQLDPALHDRTLAEGLMLLRREGVTGKAVTPFLLAHFHSATEGASLAVNIRIILRNADL</Hsp_hseq>
+      <Hsp_midline>++ +  EV  A    +P+VALESTI+SHG+P P N+ +A  +EQ +R+ GA+PATI ++ G++ +GL+  +L  LAT  DVAK+S RDLA   A    GATTVA T   AA AGI+ F TGG+GGVH+ A  + D SADL  L++T + V+CAG KSILD   T+E LET GV V+GY+T   P F+  + G  L  SV++PE++A     ++Q  L  GG+VVANP+P +  L  A  +  + E ++    +G+ GK  TPFLL      T G SLA NI+++  NA L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|C1AA54.1|</Hit_id>
+  <Hit_def>RecName: Full=Pseudouridine-5&apos;-phosphate glycosidase; Short=PsiMP glycosidase [Gemmatimonas aurantiaca T-27]</Hit_def>
+  <Hit_accession>C1AA54</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>6.36393e-73</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>VQQARENNQPIVALESTIISHGMPYPQNVEMATTVEQIIRNNGAIPATIAIIDGKIKIGLESEDLEILATSKDVAKVSRRDLAEVIAMKCVGATTVATTMICAAMAGIQFFVTGGIGGVHKGAEHTMDISADLEELSKTNVTVICAGAKSILDLPKTMEYLETKGVPVIGYQTNELPAFFTRESGVKLTSSVETPERLADIHLTKQQLNLEGGIVVANPIPYEHALSKAYIEAIINEAVVEAENQGIKGKDATPFLLGKIVEKTNGKSLAANIKLVENNAALGAKIAVAV</Hsp_qseq>
+      <Hsp_hseq>VFEALERGAALVALESSVLAQGLEPPYNREAARRMTEAVTAVGAIPVITAISRGTPTLGLDDEDLERFLQRDGVRKVSARDLGIAMADGADGATTVAATLALCALGGLEVFATGGIGGVHRDAP--FDESADLIELSRTPVIVVCAGAKSILDLPATLERLETLGVPVVGCGTDELPGFFSLSTGLRLTSRLDRPEQIARAWRAHRALGRESAMLVVQPPPADVAIPADIVDAATRAALQAASLAGIRGAAVTPYLLAQIQQRTEGRSVSANLALLEANARLAGQIAVAL</Hsp_hseq>
+      <Hsp_midline>V +A E    +VALES++++ G+  P N E A  + + +   GAIP   AI  G   +GL+ EDLE       V KVS RDL   +A    GATTVA T+   A+ G++ F TGGIGGVH+ A    D SADL ELS+T V V+CAGAKSILDLP T+E LET GVPV+G  T+ELP FF+  +G++LTS ++ PE++A      + L  E  ++V  P P + A+    ++A    A+  A   GI+G   TP+LL +I ++T G+S++AN+ L+E NA L  +IAVA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>487492</Statistics_db-num>
+      <Statistics_db-len>185956103</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
