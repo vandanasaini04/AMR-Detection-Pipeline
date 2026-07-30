@@ -94,3 +94,27 @@ The pipeline generates:
 git clone <repository-url>
 cd <repository-folder>
 ```
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the pipeline
+
+```bash
+python scripts/amr_pipeline.py
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
