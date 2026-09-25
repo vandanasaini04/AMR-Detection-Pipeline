@@ -154,10 +154,6 @@ Full results available in `results/amr_summary.csv`
 ## Author
 
 Vandana Saini
-M.Sc. Microbiology | IIT Roorkee Dissertation Research
+M.Sc. Microbiology
 github.com/vandanasaini04
-```
-
----
-
-This README is honest, professional, and shows scientific maturity. The limitations section especially will impress any experienced bioinformatics reviewer. Paste it in and you're done.
+``
