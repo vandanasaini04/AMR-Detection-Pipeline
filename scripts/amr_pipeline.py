@@ -1,5 +1,8 @@
 from Bio.Blast import NCBIXML
 import pandas as pd
+import os
+if not os.path.exists("results/all_amr_results.xml"):
+    raise FileNotFoundError("BLAST XML not found. Run BLASTP first.")
 
 results = []
 
@@ -47,7 +50,7 @@ with open("results/all_amr_results.xml") as handle:
                 "Hit_Description": "No AMR Match",
                 "Identity_%": 0,
                 "Coverage_%": 0,
-                "E_value": "-",
+                "E_value": None,
                 "Confidence": "None",
                 "AMR_Status": "No"
             })
