@@ -1,22 +1,14 @@
 # AMR Gene Detection Pipeline using BLAST+ and CARD
 
-A Python-based pipeline to screen *Staphylococcus aureus* 
-proteins against the Comprehensive Antibiotic Resistance 
-Database (CARD) for antimicrobial resistance gene detection 
-using local BLASTP.
+A Python-based pipeline to screen *Staphylococcus aureus* proteins against the Comprehensive Antibiotic Resistance Database (CARD) for antimicrobial resistance gene detection using local BLASTP.
 
 ---
 
 ## Overview
 
-This pipeline screens the *S. aureus* proteome against CARD 
-protein sequences using local BLASTP, then classifies each 
-protein based on sequence identity, query coverage, and 
-E-value thresholds.
+This pipeline screens the *S. aureus* proteome against CARD protein sequences using local BLASTP, then classifies each protein based on sequence identity, query coverage, and E-value thresholds.
 
-**Note:** This script parses pre-generated BLAST XML output. 
-BLAST+ must be installed and run separately before executing 
-the Python parser.
+**Note:** This script parses pre-generated BLAST XML output. BLAST+ must be installed and run separately before executing the Python parser.
 
 ---
 
@@ -38,17 +30,16 @@ the Python parser.
 ## Repository Structure
 
 ```
-
 AMR-Detection-Pipeline/
 ├── data/
-│   ├── GCF_000013465.1_ASM1346v1_protein.faa  
-│   └── card_db/          
+│   ├── GCF_000013465.1_ASM1346v1_protein.faa
+│   └── card_db/
 ├── db/
-│   └── blast_db/         
+│   └── blast_db/
 ├── scripts/
-│   └── amr_pipeline.py   
+│   └── amr_pipeline.py
 ├── results/
-│   └── amr_summary.csv   
+│   └── amr_summary.csv
 ├── CARD-Download-README.txt
 ├── requirements.txt
 └── README.md
@@ -72,14 +63,11 @@ AMR-Detection-Pipeline/
 
 | Class | E-value | Identity | Coverage |
 |-------|---------|----------|----------|
-| Yes | < 1e-5 | ≥ 40% | ≥ 70% |
-| Possible | < 1e-5 | below above | below above |
-| No | ≥ 1e-5 | — | — |
+| **Yes** | < 1e-5 | ≥ 40% | ≥ 70% |
+| **Possible** | < 1e-5 | < 40% or < 70% coverage | Below Yes threshold |
+| **No** | ≥ 1e-5 | — | — |
 
-**Important:** `Yes` and `Possible` classifications represent 
-high-confidence sequence matches to CARD proteins based on 
-sequence similarity. They are not confirmed AMR phenotypes 
-and require biological validation.
+**Important:** `Yes` and `Possible` classifications represent sequence similarity matches to CARD proteins only. They are not confirmed AMR phenotypes and require biological validation.
 
 ---
 
@@ -126,8 +114,7 @@ python scripts/amr_pipeline.py
 
 ## Results
 
-Screened against CARD database (version used: see 
-CARD-Download-README.txt)
+Screened against CARD database (version used: see CARD-Download-README.txt)
 
 | Metric | Count |
 |--------|------:|
@@ -142,18 +129,14 @@ Full results available in `results/amr_summary.csv`
 
 ## Limitations
 
-- Classification is based on the first BLAST alignment and 
-  first HSP only
+- Classification is based on the first BLAST alignment and first HSP only
 - Sequence similarity to CARD does not confirm AMR phenotype
 - Cross-species hits are possible for conserved proteins
-- Results should be validated with functional or 
-  experimental data
+- Results should be validated with functional or experimental data
 
 ---
 
 ## Author
 
 Vandana Saini
-M.Sc. Microbiology
 github.com/vandanasaini04
-``
